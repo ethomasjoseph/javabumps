@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ethomasjoseph.javabumps.osgi.helloworld</groupId>
+		<artifactId>pom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom/pom.xml</relativePath>
+	</parent>
+	<groupId>com.ethomasjoseph.javabumps.osgi.helloworld</groupId>
+	<artifactId>api</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>bundle</packaging>
+	<name>JavaBumps :: OSGi Hello World :: API</name>
+	<description>JavaBumps :: OSGi Hello World :: API</description>
+
+	<properties>
+		<bundle.namespace>${pom.groupId}</bundle.namespace>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,18 @@
+--p=f
+
+--clean=true
+
+#--profiles=log
+
+# System Bundles
+mvn:org.osgi/org.osgi.compendium/4.2.0@1
+
+# Essentials
+mvn:org.ops4j.pax.logging/pax-logging-api/1.6.3@1
+mvn:org.ops4j.pax.logging/pax-logging-service/1.6.3@1
+
+# User bundles
+mvn:com.ethomasjoseph.javabumps.osgi.helloworld/api/0.0.1-SNAPSHOT@update
+mvn:com.ethomasjoseph.javabumps.osgi.helloworld/service/0.0.1-SNAPSHOT@update
+mvn:com.ethomasjoseph.javabumps.osgi.helloworld/serviceclient/0.0.1-SNAPSHOT@update
+
